@@ -1,0 +1,50 @@
+{
+    "karonte": {
+        "branch": "master",
+        "description": "Karonte is a static analysis tool to detect multi-binary vulnerabilities in embedded firmware",
+        "homepage": "",
+        "owner": "ucsb-seclab",
+        "repo": "karonte",
+        "rev": "2ffe649557adccdd3c2c77c0ae0a5f27a385fdcb",
+        "sha256": "0ihdjnkniz8hvpayjmp70pp9kp4h7gj29lxmfjwyvf42dkz6b0d9",
+        "type": "tarball",
+        "url": "https://github.com/ucsb-seclab/karonte/archive/2ffe649557adccdd3c2c77c0ae0a5f27a385fdcb.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "af958e8057f345ee1aca714c1247ef3ba1c15f5e",
+        "sha256": "1qjavxabbrsh73yck5dcq8jggvh3r2jkbr6b5nlz5d9yrqm9255n",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/af958e8057f345ee1aca714c1247ef3ba1c15f5e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixpkgs-unstable",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "93184413f2180ce79d53df91df4d43c2e8f931aa",
+        "sha256": "184dzm4xc6ywxfxn96ady8s27q06fxbymf8s8g03rkdishdnjy7h",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/93184413f2180ce79d53df91df4d43c2e8f931aa.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "poetry2nix": {
+        "branch": "master",
+        "description": "Convert poetry projects to nix automagically [maintainer=@adisbladis] ",
+        "homepage": "",
+        "owner": "nix-community",
+        "repo": "poetry2nix",
+        "rev": "9bbc74401749763ba464532f194464d9a5efc0a9",
+        "sha256": "1ww4cd4arws0ayia6wch7lk6lilhla1ilg80khp0js8ri3m8zdhv",
+        "type": "tarball",
+        "url": "https://github.com/nix-community/poetry2nix/archive/9bbc74401749763ba464532f194464d9a5efc0a9.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "karonte"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+packages = [
+	{ include = "tool" },
+]
+
+[tool.poetry.dependencies]
+python = "^2.7"
+mpmath = "^1.2.1"
+sympy = "^1.5"
+numpy = "^1.16"
+scikit-learn = "^0.20"
+angr = "=7.7.9.21"
+claripy = "=7.8.2.21"
+archinfo = "=7.7.9.14"
+pyvex = "=7.7.9.14"
+simuvex = "*"
+networkx = "*"
+progressbar = "^2"
+enum34 = "^1.1.10"
+rpyc = "3.3.0"
+idalink = "^0.12"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+# build-backend = "poetry.core.masonry.api"
+build-backend = "setuptools.build_meta:__legacy__"
