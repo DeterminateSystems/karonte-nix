@@ -1,16 +1,4 @@
 {
-    "karonte": {
-        "branch": "master",
-        "description": "Karonte is a static analysis tool to detect multi-binary vulnerabilities in embedded firmware",
-        "homepage": "",
-        "owner": "ucsb-seclab",
-        "repo": "karonte",
-        "rev": "2ffe649557adccdd3c2c77c0ae0a5f27a385fdcb",
-        "sha256": "0ihdjnkniz8hvpayjmp70pp9kp4h7gj29lxmfjwyvf42dkz6b0d9",
-        "type": "tarball",
-        "url": "https://github.com/ucsb-seclab/karonte/archive/2ffe649557adccdd3c2c77c0ae0a5f27a385fdcb.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",

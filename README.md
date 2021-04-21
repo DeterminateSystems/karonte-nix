@@ -1,12 +1,13 @@
 # karonte-nix
 
-This repository houses a Nix expression to make it easy to run karonte.
+This repository houses a Nix expression to make it easy to run
+[karonte](https://github.com/ucsb-seclab/karonte).
+
+For your convenience, karonte has been copied in-tree.
 
 Usage:
 
 ```shell
-git clone https://github.com/ucsb-seclan/karonte
-
 nix-shell
 
 # * ensure you have a firmware directory wherever you run karonte.py from, which
