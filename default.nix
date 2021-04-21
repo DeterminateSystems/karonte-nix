@@ -16,14 +16,7 @@ let
     };
 in
 (poetry2nix.mkPoetryApplication {
-  src = sources.karonte;
-
-  # don't build or install; we just want the dependencies
-  buildPhase = ":";
-  installPhase = ":";
-
-  pyproject = ./pyproject.toml;
-  poetrylock = ./poetry.lock;
+  projectDir = ./karonte;
 
   # necessary to fix "UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3
   # in position 1: ordinal not in range(128)" when bootstrapping pip
